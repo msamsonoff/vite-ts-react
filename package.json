@@ -1,0 +1,30 @@
+{
+  "name": "vite-react",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "vite build",
+    "check": "tsc",
+    "start": "vite",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@swc/jest": "^0.2.26",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4"
+  }
+}
